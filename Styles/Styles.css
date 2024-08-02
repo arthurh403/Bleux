@@ -1,0 +1,1079 @@
+/*estilos de la web*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* Fondo */
+.back {
+    padding: 40px 0;
+    background-color: #1e162e;
+}
+
+/* Menú */
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    width: 12.7%;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    font-family: system-ui;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;
+    opacity: 60%;
+}
+
+.menu .navbar ul li a:hover {
+    color: white;
+    opacity: 100%;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icons {
+    width: 25px;
+}
+
+/* Boton con gradiente */
+.gradiente {
+    margin-top: 0.7%;
+    background-image: linear-gradient(to right, #7C45D5, #0F7AD5ed);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 18px 18px;
+    font-size: 18px;
+    cursor: pointer;
+
+    
+}
+.gradiente:hover{
+    color: black;
+}
+
+
+/* Contenedor principal */
+#main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.section {
+    width: 50%;
+    height: 100%;
+}
+
+#caja1 {
+    background-color: #2e244f;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+}
+
+
+#caja2 .imagen-fondo {
+    width: 100%;
+    background-image: url(../assets/img/hojasFondo.jpg);
+    height: 100%;
+}
+
+
+#caja2 {
+    position: relative;
+}
+
+.imagen-superpuesta {
+    position: absolute;
+    bottom: 6%;
+    left: 18%;
+    transform: scale(1.1);
+    width: auto;
+}
+
+/* Estilo del texto */
+#h-1 {
+    color: white;
+    font-family: system-ui;
+    font-size: 110px;
+}
+
+#a-1 {
+    color: white;
+    font-family: system-ui;
+    font-size: 30px;
+}
+
+/* Estilo en general */
+.todo {
+    width: 680px;
+    height: 700px;
+}
+
+.margen {
+    justify-content: center;
+    align-items: center;
+    /* width: 500px; */
+    display: flex;
+    border-radius: 7px;
+    border: 2px solid rgb(223, 216, 216);
+    padding: 5px;
+}
+
+/* Botones */
+.Botones-1 {
+    border: none;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.Botones-2 {
+    border: 2px solid rgb(223, 216, 216);
+    color: white;
+    margin-left: 10px;
+    width: 50%;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: #2e244f;
+}
+.Botones-1:hover{
+    border: 4px solid white; 
+    transform: translateY(-5px);
+    color: white;
+    background-color: black;
+}
+.Botones-2:hover{
+    border: 4px solid white; 
+    transform: translateY(-5px);
+    color: white;
+    background-color: black;
+}
+
+/* Imágenes y texto */
+.img-laptop {
+    display: flex;
+    flex-direction: row;
+}
+
+.a-2 img {
+    width: 6%;
+    margin-right: 3%;
+}
+
+.pa .h-2 {
+    margin: 3%;
+    text-align: center;
+    font-size: 90px;
+    font-family: system-ui;
+    color: #f51488;
+}
+
+
+.laptop {
+    transform: scale(0.9);
+    width: 45%;
+    height: 100%;
+    margin-left: 11%;
+}
+
+/* Sección Alpha */
+.Alpha {
+    margin-left: 7%;
+}
+
+/* Screenshot */
+.Screenshot {
+    color: #c2156e;
+    font-size: 7vh;
+    font-family: system-ui;
+}
+
+.lorem {
+    font-size: 22px;
+    font-family: system-ui;
+}
+
+/*icons */
+.a-2 {
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.a-2 a {
+    font-size: 26px;
+    font-family: system-ui;
+}
+
+#color-a {
+    font-family: system-ui;
+    color: #f51488;
+    font-size: 30px;
+}
+
+/* containers Papa*/
+.papa {
+    background-color: #1e162e;
+    justify-content: center;
+    align-items: center;
+}
+
+.pap {
+    text-align: center;
+}
+
+.h-3 {
+    font-family: system-ui;
+    font-size: 10vh;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.pre {
+    font-family: system-ui;
+    color: white;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+/* Container Plans */
+.plans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plan {
+    font-family: system-ui;
+    width: 31%;
+    height: 650px;
+    background-color: white;
+    color: #1e162e;
+    border-radius: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Lite {
+    color: #f51488;
+}
+
+.price-container {
+    text-align: center;
+    background-color: #f5f5f5;
+    height: 80px;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.dollar {
+    font-size: 40px;
+}
+
+.zero {
+    font-size: 48px;
+}
+
+.free-label {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.features-container {
+    margin-left: 12px;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+}
+
+.feature-item {
+    padding: 2px 0;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.feature-item .check {
+    margin-right: 30px;
+    color: #f51689;
+}
+
+.feature-item .cross {
+    margin-right: 30px;
+    color: #404040;
+}
+
+.description {
+    font-family: system-ui;
+    color: black;
+    font-size: 20px;
+}
+
+/* Botones */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 70px;
+}
+
+.button-1 {
+    background-image: linear-gradient(to right, #ed61aa, #f21b8a);
+    margin: 10px 0;
+    background-color: #2e244f;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 50%;
+    height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-2 {
+    margin: 10px 0;
+    background-color: #2e244f;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 50%;
+    height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-3 {
+    margin: 10px 0;
+    background-color: #2e244f;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 50%;
+    height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Stayles Btn*/
+.button-1:hover{
+    border: 4px solid #ad1bb3; 
+    transform: translateY(-5px);
+    color: #dbc81ced;
+    background-color: black;
+}
+.button-2:hover{
+    border: 4px solid #ad1bb3; 
+    transform: translateY(-5px);
+    color: #dbc81ced;
+    background-color: black;
+}
+.button-3:hover{
+    border: 4px solid #ad1bb3; 
+    transform: translateY(-5px);
+    color: #dbc81ced;
+    background-color: black;
+}
+
+
+
+/* Footer  */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+.footer-link {
+    color: #ff007f;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.social-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+
+/* Media query para 1279px */
+@media screen and (max-width: 1279px) {
+    .container {
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    
+    /* Fondo */
+    .back {
+        height: 10%;
+        background-color: #1e162e;
+    }
+    /* Menú */
+    .logo {
+        width: 20%;
+        font-size: 24px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .menu .navbar ul li a:hover {
+        color: white;
+        opacity: 100%;
+    }
+    /* Estilo del texto */
+    #h-1 {
+        color: white;
+        font-family: system-ui;
+        font-size: 70px;
+        margin-left: 30%;
+    }
+    
+    #a-1 {
+        display: flex;
+        color: white;
+        font-family: system-ui;
+        font-size: 21px;
+        margin-left: 30%;
+    }
+    /* Estilo en general */
+    .margen {
+        justify-content: center;
+        align-items: center;
+        /* width: 350px; */
+        display: flex;
+        border-radius: 7px;
+        border: 2px solid rgb(223, 216, 216);
+        padding: 5px;
+        margin-left: 30%;
+    }
+    
+    .imagen-superpuesta {
+        position: absolute;
+        bottom: 1%;
+        left: 18%;
+        transform: scale(0.8);
+        width: auto;
+    }
+    /* Sección Alpha */
+    .Alpha {
+        margin-left: 3%;
+    }
+
+    .button-container{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+/* Media query para 921px */
+@media screen and (max-width: 921px){
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    
+    /* Fondo */
+    .back {
+        height: 10%;
+        background-color: #1e162e;
+    }
+    /* Menú */
+    .logo {
+        width: 25.5%;
+        font-size: 24px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .menu .navbar ul li a:hover {
+        color: white;
+        opacity: 100%;
+    }
+    /* Estilo del texto */
+    #h-1 {
+        color: white;
+        font-family: system-ui;
+        font-size: 70px;
+        margin-left: 45%;
+    }
+    
+    #a-1 {
+        display: flex;
+        color: white;
+        font-family: system-ui;
+        font-size: 16px;
+        margin-left: 45%;
+    }
+    /* Estilo en general */
+    .margen {
+        justify-content: center;
+        align-items: center;
+        /* width: 300px; */
+        height: 7%;
+        display: flex;
+        border-radius: 7px;
+        border: 2px solid rgb(223, 216, 216);
+        padding: 5px;
+        margin-left: 45%;
+    }
+
+    .Botones-1 {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .Botones-2 {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    
+    .imagen-superpuesta {
+        position: absolute;
+        bottom: -10%;
+        left: 18%;
+        transform: scale(0.7);
+        width: auto;
+    }
+
+    /* Imágenes y texto */
+    .pa .h-2 {
+        margin: 4%;
+        text-align: center;
+        font-size: 70px;
+        font-family: system-ui;
+        color: #f51488;
+    }
+    /*imagen laptop*/
+    .laptop {
+        transform: scale(0.9);
+        width: 45%;
+        height: 100%;
+        margin-left: 7%;
+    }
+
+    /* Container Plans */
+    .plans {
+        width: 100%;
+    }
+
+    .dollar {
+        font-size: 30px;
+    }
+
+    .zero {
+        font-size: 40px;
+    }
+
+    .free-label {
+        font-size: 18px;
+    }
+
+    .price-container {
+        height: 60px;
+        margin-top: 15px;
+    }
+
+    .feature-item {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .button-container {
+        height: 65px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .button-1 {
+        width: 50%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button-2 {
+        width: 50%;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .button-3 {
+        width: 50%;
+        height: 40px;
+        font-size: 18px;
+
+    }
+
+    /* Footer  */
+    .footer {
+        font-size: 18px;
+    }
+    
+    .footer-content {
+        max-width: 820px;
+    }
+}
+
+
+/* Media query para 679px */
+@media screen and (max-width: 769px){
+
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    
+    /* Estilo del texto */
+    #h-1 {
+        font-size: 70px;
+        margin-left: 45%;
+    }
+    
+    #a-1 {
+        font-size: 16px;
+        margin-left: 46%;
+    }
+    /* Estilo en general */
+    .margen {
+        height: 7%;
+        padding: 5px;
+        margin-left: 46%;
+    }
+
+    .imagen-superpuesta {
+        position: absolute;
+        bottom: -10%;
+        left: 13%;
+        transform: scale(0.7);
+        width: auto;
+    }
+
+/* Sección Alpha */
+    .Alpha {
+        margin-left: -1%;
+    }
+
+    /* Imágenes y texto */
+    .pa .h-2 {
+        margin: 4%;
+        font-size: 65px;
+    }
+
+    /*imagen laptop*/
+    .laptop {
+        transform: scale(0.8);
+        width: 40%;
+        height: 100%;
+        margin-left: 9;
+    }
+
+    .lorem {
+        font-size: 14px;
+    }
+
+    .a-2 a {
+        font-size: 14px;
+    }
+
+    .h-3 {
+        font-size: 9vh;
+    }
+
+    .pre {
+        font-size: 14px;
+    }
+
+    .plans {
+        padding: 15px;
+    }
+
+
+    #fuente{
+        font-size: 16px;
+
+    }
+
+    .feature-item {
+        font-size: 15px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .button-container{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .button-1 {
+        width: 50%;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .button-2 {
+        width: 50%;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .button-3 {
+        width: 50%;
+        height: 40px;
+        font-size: 15px;
+
+    }
+
+    /* Footer  */
+    .footer {
+        font-size: 15px;
+    }
+    
+    .footer-content {
+        max-width: 735px;
+    }
+}
+    
+/* Media query para 481px */
+@media screen and (max-width: 481px){
+
+    #main-container {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .logo{
+        margin-top: 14px;
+        margin-left: 18px;
+    }
+    .menu .navbar ul {
+        margin-top: 13px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu .navbar ul {
+        display: flex;
+
+    }
+    .menu .navbar ul li{
+        width: 60px;
+
+    }
+    .menu .navbar ul li a{
+        
+        font-size: 11px;
+        width: 100px;
+    }
+    .gradiente{
+        width: 70px;
+        height: 20px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        }
+
+    /* Estilo del texto */
+    #h-1 {
+        font-size: 36px;
+        margin-left: 67%;
+    }
+    #a-1 {
+        width: 200px;
+        font-size: 18px;
+        margin-left: 67%;
+    }
+
+    /* Estilo en general */
+    .margen {
+        height: 10%;
+        margin-left: 67%;
+    }
+
+    .Botones-1 {
+        width: 120px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .Botones-2 {
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .imagen-superpuesta {
+        position: absolute;
+        bottom: -35%;
+        left: -20%;
+        transform: scale(0.4);
+        width: auto;
+    }
+
+    /* Sección Alpha */
+    .Alpha {
+        margin-left: -28%;
+    }
+
+    /* Imágenes y texto */
+    .pa .h-2 {
+        margin: 4%;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    /* imagen laptop */
+    .laptop {
+        transform: scale(0.4);
+        width: 100%;
+        margin: 0 auto;
+        margin-left: -30%;
+    }
+
+    .Screenshot {
+        font-size: 3vh;
+    }
+    .lorem {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .a-2 a {
+        font-size: 17px;
+    }
+
+    .h-3 {
+        font-size: 4vh;
+    }
+
+    .pre {
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+    }
+
+    .plans {
+        padding: 35px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fuente{
+        font-size: 20px;
+    }
+
+    .feature-item {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .button-container {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .button-1, .button-2, .button-3 {
+        width: 80%;
+        height: 40px;
+        font-size: 15px;
+        margin: 10px auto;
+    }
+
+    /* Footer */
+    .footer {
+        font-size: 15px;
+    }
+
+    .footer-content {
+        max-width: 500px;
+        align-items: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .social-icons {
+        gap: 7px;
+    }
+
+
+}
+
+/* Media query para 352px */
+@media screen and (max-width: 480px){
+
+    .margen {
+        height: 10%;
+        margin-left: 76%;
+    }
+
+    .Botones-1 {
+        width: 80px;
+        font-size: 10.5px;
+    }
+
+    .Botones-2 {
+        width: 60px;
+        font-size: 10.5px;
+    }
+    .logo{
+        margin-top: 14px;
+        margin-left: 18px;
+    }
+    .menu .navbar ul {
+        margin-top: 13px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu .navbar ul {
+        display: flex;
+
+    }
+    .menu .navbar ul li{
+        width: 60px;
+
+    }
+    .menu .navbar ul li a{
+        
+        font-size: 10.5px;
+        width: 100px;
+    }
+    .gradiente{
+        width: 70px;
+        height: 20px;
+        font-size: 10.5px;
+    }
+
+    /* Estilo del texto */
+    #h-1 {
+        font-size: 18px;
+        margin-left: 76%;
+    }
+    #a-1 {
+        width: 150px;
+        font-size: 15px;
+        margin-left: 76%;
+    }
+    .imagen-superpuesta {
+        transform: scale(0.4);
+        margin-left: -18%;
+    }
+
+    .pre {
+        margin-left: 17px;
+        width: 320px;
+        font-size: 13px;
+    }
+    .back{
+        height: 120px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-laptop{
+        display: flex;
+        flex-direction: column;
+        margin-left: 130px;
+    }
+
+    .laptop{
+        transform: scale(0.9);
+    }
+    .Screenshot {
+        font-size: 4vh;
+    }
+}
